@@ -1,0 +1,82 @@
+/*CORES*/
+/*
+#308AD9
+#3299D9
+#3BACD9
+#4AD97C
+#F2BC57
+
+#42708C
+#7EADBF
+#8C6746
+#F25A38
+#F2F2F2
+*/
+
+/*-------------------------------------*/
+/*HEADER*/
+@media screen and (max-width: 1200px) {
+    /* tanto essa opção de media screen quanto as demais são pra delimitar uma imagem especifica para o 
+    tamanho especifico da tela do dispositivo */
+    
+    header {
+        /*background-image: url('../images/header_capaM.jpg');*/
+        min-height: 90vh;
+        background-size: cover;
+        background-position: left;
+    }
+}
+@media screen and (max-width: 750px) {
+    
+    
+    header {
+        /*background-image: url('../images/header_capaM.jpg');*/
+        min-height: 90vh;
+        background-size: cover;
+        background-position: left;
+    }
+}
+/*---------NAVBAR--------*/
+@media screen and (max-width: 1110px) {
+    header nav#nav-esquerda ul.menu-principal li a{
+        font-size: 90%;
+    }
+}
+@media screen and (max-width: 970px) {
+    header nav#nav-esquerda div#logo{
+        margin-left: 1rem;
+    }
+    /*-----MENU HAMBURGER-----*/
+    header nav#nav-esquerda{
+        justify-content: space-between;
+    }
+    header nav#nav-esquerda ul#icone-menu{
+        display: flex;
+    }
+    header nav#nav-esquerda ul#icone-menu li#menuX{
+        display: none;
+    }
+    /*-----MENU-----*/
+    header nav#nav-esquerda ul.menu-principal{
+        flex-direction: column;
+        width: 80%;
+        height: 70vh;
+        flex-direction: column;
+        background: linear-gradient(red 0%, blue 45%, green 100%);
+        padding-top: .5rem;
+
+        position: absolute;
+        top: 7rem;
+        right: 0;
+        z-index: 999;
+
+        display: none;
+    }
+    header nav#nav-esquerda ul.menu-principal li{
+        margin: .5rem;    
+    }
+    header nav#nav-esquerda ul.menu-principal li  a{
+        font-size: 120%;
+    }   
+}
+

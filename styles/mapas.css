@@ -1,0 +1,79 @@
+#mapas #baseareas{
+    padding: 10px;
+    margin: 20px; background-color:rgba(255, 255, 255, 0.1); border-radius: 10px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 280px));
+    gap: 25px;
+    justify-content: center;
+}
+
+#mapas #baseareas h1{
+    font-size: larger;
+    text-align: center;
+}
+
+#mapas #baseareas h1 a{
+    color: white;
+    text-decoration: none;
+}
+
+#mapas #baseareas h1 a:hover{
+    color: rgb(94, 92, 92);
+}
+
+#mapas #baseareas .mapa .capa_mapa{
+    border-radius: 10px;
+    width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+    
+}
+
+#mapas #baseareas .mapa{
+    transition: transform 0.3s ease;
+    transform: scale(1);
+}
+
+#mapas #baseareas .mapa:hover{
+    transform: scale(1.1);
+}
+
+#mapas #dlcareas{
+    padding: 10px;
+    margin: 20px; background-color:rgba(255, 255, 255, 0.1); border-radius: 10px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 280px));
+    gap: 25px;
+    justify-content: center;
+}
+
+#mapas #dlcareas h1{
+    font-size: larger;
+    text-align: center;
+}
+
+#mapas #dlcareas h1 a{
+    color: white;
+    text-decoration: none;
+}
+
+#mapas #dlcareas h1 a:hover{
+    color: rgb(94, 92, 92);
+}
+
+#mapas #dlcareas .mapa .capa_mapa{
+    border-radius: 10px;
+    width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+}
+
+#mapas #dlcareas .mapa{
+    transition: transform 0.1s ease;
+    transform: scale(1);
+}
+
+#mapas #dlcareas .mapa:hover{
+    transform: scale(1.1);
+}
+
