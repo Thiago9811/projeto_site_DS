@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./styles/mapas.css">
     <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/modal.css">
+    <link rel="stylesheet" href="./styles/bosses.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"   rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:wght@300;400;600&family=Pacifico&display=swap"
@@ -81,7 +82,7 @@
                             <div>
                                 <div class="boss_do_mapa">
                                     <h1>
-                                        <a href="#footer" class="link_modal">Asylum Demon</a>
+                                        <a href="#asylum_demon" class="link_modal">Asylum Demon</a>
                                     </h1>
                                     <img src="./images/Bosses/asylum_demon.jpg" alt="">
                                 </div>
@@ -183,16 +184,14 @@
                     <img src="./images/mapas/Blight_Town.webp" alt="" class="capa_mapa">
                     <dialog class="modal">
                         <div>
-                            <h2>Title</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quam error consequatur velit rerum eum, 
-                                illo laboriosam quas sunt nam deleniti sed porro sapiente saepe et adipisci explicabo aliquid blanditiis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi soluta ex eius optio, nulla blanditiis cum voluptate nisi fugiat deserunt. Aperiam provident dolore accusamus rem natus neque aspernatur quaerat non.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, at. Beatae, ab saepe exercitationem minima porro sed laborum dolorem est facilis earum veniam fugit provident, quis animi. Id, error nemo!
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                
-                            </p>
+                            <div class="bloco_modal" id="Blighttown">
+                                <div>
+                                    <img src="./images/mapas/Blighttown_Upper_map.webp" alt="" class="map">
+                                </div>
+                                <div>
+                                    <img src="./images/mapas/Blighttown_Lower_map.webp" alt="" class="map">
+                                </div>
+                            </div>
                             <button type="button" class="fechar_modal">X</button>
                         </div>
                     </dialog>
@@ -203,17 +202,18 @@
                     </h1>
                     <img src="./images/mapas/quelaags_domain.jpg" alt="" class="capa_mapa">
                     <dialog class="modal">
-                        <div>
-                            <h2>Title</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quam error consequatur velit rerum eum, 
-                                illo laboriosam quas sunt nam deleniti sed porro sapiente saepe et adipisci explicabo aliquid blanditiis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi soluta ex eius optio, nulla blanditiis cum voluptate nisi fugiat deserunt. Aperiam provident dolore accusamus rem natus neque aspernatur quaerat non.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, at. Beatae, ab saepe exercitationem minima porro sed laborum dolorem est facilis earum veniam fugit provident, quis animi. Id, error nemo!
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                
-                            </p>
+                        <div class="bloco_modal">
+                            <div>
+                                <img src="./images/mapas/Quelaag_s_Domain_map.webp" alt="" class="map">
+                            </div>
+                            <div>
+                                <div class="boss_do_mapa">
+                                    <h1>
+                                        <a href="" class="link_modal">Chaos Witch Quelaag</a>
+                                    </h1>
+                                    <img src="./images/Bosses/Chaos_Witch_Quelaag.webp" alt="">
+                                </div>
+                            </div>
                             <button type="button" class="fechar_modal">X</button>
                         </div>
                     </dialog>
@@ -224,17 +224,10 @@
                     </h1>
                     <img src="./images/mapas/The_Great_Hollow.webp" alt="" class="capa_mapa">
                     <dialog class="modal">
-                        <div>
-                            <h2>Title</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quam error consequatur velit rerum eum, 
-                                illo laboriosam quas sunt nam deleniti sed porro sapiente saepe et adipisci explicabo aliquid blanditiis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi soluta ex eius optio, nulla blanditiis cum voluptate nisi fugiat deserunt. Aperiam provident dolore accusamus rem natus neque aspernatur quaerat non.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, at. Beatae, ab saepe exercitationem minima porro sed laborum dolorem est facilis earum veniam fugit provident, quis animi. Id, error nemo!
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                
-                            </p>
+                        <div class="bloco_modal">
+                            <div>
+                                <img src="./images/mapas/The_Great_Hollow_map.jpg_large" alt="" class="map">
+                            </div>
                             <button type="button" class="fechar_modal">X</button>
                         </div>
                     </dialog>
@@ -245,17 +238,11 @@
                     </h1>
                     <img src="./images/mapas/ash-lake.webp" alt="" class="capa_mapa">
                     <dialog class="modal">
-                        <div>
-                            <h2>Title</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quam error consequatur velit rerum eum, 
-                                illo laboriosam quas sunt nam deleniti sed porro sapiente saepe et adipisci explicabo aliquid blanditiis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi soluta ex eius optio, nulla blanditiis cum voluptate nisi fugiat deserunt. Aperiam provident dolore accusamus rem natus neque aspernatur quaerat non.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, at. Beatae, ab saepe exercitationem minima porro sed laborum dolorem est facilis earum veniam fugit provident, quis animi. Id, error nemo!
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                
-                            </p>
+                        <div class="bloco_modal">
+                            <div>
+                                <img src="./images/mapas/ash_lake_map.jpg_large" alt="" class="map">
+                            </div>
+                            
                             <button type="button" class="fechar_modal">X</button>
                         </div>
                     </dialog>
@@ -266,17 +253,18 @@
                     </h1>
                     <img src="./images/mapas/Sens_fortress.webp" alt="" class="capa_mapa">
                     <dialog class="modal">
-                        <div>
-                            <h2>Title</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quam error consequatur velit rerum eum, 
-                                illo laboriosam quas sunt nam deleniti sed porro sapiente saepe et adipisci explicabo aliquid blanditiis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi soluta ex eius optio, nulla blanditiis cum voluptate nisi fugiat deserunt. Aperiam provident dolore accusamus rem natus neque aspernatur quaerat non.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, at. Beatae, ab saepe exercitationem minima porro sed laborum dolorem est facilis earum veniam fugit provident, quis animi. Id, error nemo!
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                
-                            </p>
+                        <div class="bloco_modal">
+                            <div>
+                                <img src="" alt="" class="map">
+                            </div>
+                            <div>
+                                <div class="boss_do_mapa">
+                                    <h1>
+                                        <a href="" class="link_modal">nome do boss</a>
+                                    </h1>
+                                    <img src="" alt="">
+                                </div>
+                            </div>
                             <button type="button" class="fechar_modal">X</button>
                         </div>
                     </dialog>
@@ -287,17 +275,18 @@
                     </h1>
                     <img src="./images/mapas/Anor-Londo.webp" alt="" class="capa_mapa">
                     <dialog class="modal">
-                        <div>
-                            <h2>Title</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quam error consequatur velit rerum eum, 
-                                illo laboriosam quas sunt nam deleniti sed porro sapiente saepe et adipisci explicabo aliquid blanditiis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi soluta ex eius optio, nulla blanditiis cum voluptate nisi fugiat deserunt. Aperiam provident dolore accusamus rem natus neque aspernatur quaerat non.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, at. Beatae, ab saepe exercitationem minima porro sed laborum dolorem est facilis earum veniam fugit provident, quis animi. Id, error nemo!
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                
-                            </p>
+                        <div class="bloco_modal">
+                            <div>
+                                <img src="" alt="" class="map">
+                            </div>
+                            <div>
+                                <div class="boss_do_mapa">
+                                    <h1>
+                                        <a href="" class="link_modal">nome do boss</a>
+                                    </h1>
+                                    <img src="" alt="">
+                                </div>
+                            </div>
                             <button type="button" class="fechar_modal">X</button>
                         </div>
                     </dialog>
@@ -308,17 +297,18 @@
                     </h1>
                     <img src="./images/mapas/Painted_World_of_Ariamis.webp" alt="" class="capa_mapa">
                     <dialog class="modal">
-                        <div>
-                            <h2>Title</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quam error consequatur velit rerum eum, 
-                                illo laboriosam quas sunt nam deleniti sed porro sapiente saepe et adipisci explicabo aliquid blanditiis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi soluta ex eius optio, nulla blanditiis cum voluptate nisi fugiat deserunt. Aperiam provident dolore accusamus rem natus neque aspernatur quaerat non.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, at. Beatae, ab saepe exercitationem minima porro sed laborum dolorem est facilis earum veniam fugit provident, quis animi. Id, error nemo!
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                
-                            </p>
+                        <div class="bloco_modal">
+                            <div>
+                                <img src="" alt="" class="map">
+                            </div>
+                            <div>
+                                <div class="boss_do_mapa">
+                                    <h1>
+                                        <a href="" class="link_modal">nome do boss</a>
+                                    </h1>
+                                    <img src="" alt="">
+                                </div>
+                            </div>
                             <button type="button" class="fechar_modal">X</button>
                         </div>
                     </dialog>
@@ -329,17 +319,18 @@
                     </h1>
                     <img src="./images/mapas/Darkroot_garden.webp" alt="" class="capa_mapa">
                     <dialog class="modal">
-                        <div>
-                            <h2>Title</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quam error consequatur velit rerum eum, 
-                                illo laboriosam quas sunt nam deleniti sed porro sapiente saepe et adipisci explicabo aliquid blanditiis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi soluta ex eius optio, nulla blanditiis cum voluptate nisi fugiat deserunt. Aperiam provident dolore accusamus rem natus neque aspernatur quaerat non.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, at. Beatae, ab saepe exercitationem minima porro sed laborum dolorem est facilis earum veniam fugit provident, quis animi. Id, error nemo!
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                
-                            </p>
+                        <div class="bloco_modal">
+                            <div>
+                                <img src="" alt="" class="map">
+                            </div>
+                            <div>
+                                <div class="boss_do_mapa">
+                                    <h1>
+                                        <a href="" class="link_modal">nome do boss</a>
+                                    </h1>
+                                    <img src="" alt="">
+                                </div>
+                            </div>
                             <button type="button" class="fechar_modal">X</button>
                         </div>
                     </dialog>
@@ -350,17 +341,18 @@
                     </h1>
                     <img src="./images/mapas/Darkroot_Basin.webp" alt="" class="capa_mapa">
                     <dialog class="modal">
-                        <div>
-                            <h2>Title</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quam error consequatur velit rerum eum, 
-                                illo laboriosam quas sunt nam deleniti sed porro sapiente saepe et adipisci explicabo aliquid blanditiis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi soluta ex eius optio, nulla blanditiis cum voluptate nisi fugiat deserunt. Aperiam provident dolore accusamus rem natus neque aspernatur quaerat non.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, at. Beatae, ab saepe exercitationem minima porro sed laborum dolorem est facilis earum veniam fugit provident, quis animi. Id, error nemo!
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                
-                            </p>
+                        <div class="bloco_modal">
+                            <div>
+                                <img src="" alt="" class="map">
+                            </div>
+                            <div>
+                                <div class="boss_do_mapa">
+                                    <h1>
+                                        <a href="" class="link_modal">nome do boss</a>
+                                    </h1>
+                                    <img src="" alt="">
+                                </div>
+                            </div>
                             <button type="button" class="fechar_modal">X</button>
                         </div>
                     </dialog>
@@ -371,17 +363,18 @@
                     </h1>
                     <img src="./images/mapas/New_londo_ruins.webp" alt="" class="capa_mapa">
                     <dialog class="modal">
-                        <div>
-                            <h2>Title</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quam error consequatur velit rerum eum, 
-                                illo laboriosam quas sunt nam deleniti sed porro sapiente saepe et adipisci explicabo aliquid blanditiis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi soluta ex eius optio, nulla blanditiis cum voluptate nisi fugiat deserunt. Aperiam provident dolore accusamus rem natus neque aspernatur quaerat non.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, at. Beatae, ab saepe exercitationem minima porro sed laborum dolorem est facilis earum veniam fugit provident, quis animi. Id, error nemo!
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                
-                            </p>
+                        <div class="bloco_modal">
+                            <div>
+                                <img src="" alt="" class="map">
+                            </div>
+                            <div>
+                                <div class="boss_do_mapa">
+                                    <h1>
+                                        <a href="" class="link_modal">nome do boss</a>
+                                    </h1>
+                                    <img src="" alt="">
+                                </div>
+                            </div>
                             <button type="button" class="fechar_modal">X</button>
                         </div>
                     </dialog>
@@ -392,17 +385,18 @@
                     </h1>
                     <img src="./images/mapas/Dukes_archives.webp" alt="" class="capa_mapa">
                     <dialog class="modal">
-                        <div>
-                            <h2>Title</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quam error consequatur velit rerum eum, 
-                                illo laboriosam quas sunt nam deleniti sed porro sapiente saepe et adipisci explicabo aliquid blanditiis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi soluta ex eius optio, nulla blanditiis cum voluptate nisi fugiat deserunt. Aperiam provident dolore accusamus rem natus neque aspernatur quaerat non.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, at. Beatae, ab saepe exercitationem minima porro sed laborum dolorem est facilis earum veniam fugit provident, quis animi. Id, error nemo!
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                
-                            </p>
+                        <div class="bloco_modal">
+                            <div>
+                                <img src="" alt="" class="map">
+                            </div>
+                            <div>
+                                <div class="boss_do_mapa">
+                                    <h1>
+                                        <a href="" class="link_modal">nome do boss</a>
+                                    </h1>
+                                    <img src="" alt="">
+                                </div>
+                            </div>
                             <button type="button" class="fechar_modal">X</button>
                         </div>
                     </dialog>
@@ -413,17 +407,18 @@
                     </h1>
                     <img src="./images/mapas/Crystal_Cave.webp" alt="" class="capa_mapa">
                     <dialog class="modal">
-                        <div>
-                            <h2>Title</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quam error consequatur velit rerum eum, 
-                                illo laboriosam quas sunt nam deleniti sed porro sapiente saepe et adipisci explicabo aliquid blanditiis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi soluta ex eius optio, nulla blanditiis cum voluptate nisi fugiat deserunt. Aperiam provident dolore accusamus rem natus neque aspernatur quaerat non.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, at. Beatae, ab saepe exercitationem minima porro sed laborum dolorem est facilis earum veniam fugit provident, quis animi. Id, error nemo!
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                
-                            </p>
+                        <div class="bloco_modal">
+                            <div>
+                                <img src="" alt="" class="map">
+                            </div>
+                            <div>
+                                <div class="boss_do_mapa">
+                                    <h1>
+                                        <a href="" class="link_modal">nome do boss</a>
+                                    </h1>
+                                    <img src="" alt="">
+                                </div>
+                            </div>
                             <button type="button" class="fechar_modal">X</button>
                         </div>
                     </dialog>
@@ -434,17 +429,18 @@
                     </h1>
                     <img src="./images/mapas/Demon_Ruins.webp" alt="" class="capa_mapa">
                     <dialog class="modal">
-                        <div>
-                            <h2>Title</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quam error consequatur velit rerum eum, 
-                                illo laboriosam quas sunt nam deleniti sed porro sapiente saepe et adipisci explicabo aliquid blanditiis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi soluta ex eius optio, nulla blanditiis cum voluptate nisi fugiat deserunt. Aperiam provident dolore accusamus rem natus neque aspernatur quaerat non.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, at. Beatae, ab saepe exercitationem minima porro sed laborum dolorem est facilis earum veniam fugit provident, quis animi. Id, error nemo!
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                
-                            </p>
+                        <div class="bloco_modal">
+                            <div>
+                                <img src="" alt="" class="map">
+                            </div>
+                            <div>
+                                <div class="boss_do_mapa">
+                                    <h1>
+                                        <a href="" class="link_modal">nome do boss</a>
+                                    </h1>
+                                    <img src="" alt="">
+                                </div>
+                            </div>
                             <button type="button" class="fechar_modal">X</button>
                         </div>
                     </dialog>
@@ -455,17 +451,18 @@
                     </h1>
                     <img src="./images/mapas/Lost_Izalith.webp" alt="" class="capa_mapa">
                     <dialog class="modal">
-                        <div>
-                            <h2>Title</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quam error consequatur velit rerum eum, 
-                                illo laboriosam quas sunt nam deleniti sed porro sapiente saepe et adipisci explicabo aliquid blanditiis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi soluta ex eius optio, nulla blanditiis cum voluptate nisi fugiat deserunt. Aperiam provident dolore accusamus rem natus neque aspernatur quaerat non.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, at. Beatae, ab saepe exercitationem minima porro sed laborum dolorem est facilis earum veniam fugit provident, quis animi. Id, error nemo!
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                
-                            </p>
+                        <div class="bloco_modal">
+                            <div>
+                                <img src="" alt="" class="map">
+                            </div>
+                            <div>
+                                <div class="boss_do_mapa">
+                                    <h1>
+                                        <a href="" class="link_modal">nome do boss</a>
+                                    </h1>
+                                    <img src="" alt="">
+                                </div>
+                            </div>
                             <button type="button" class="fechar_modal">X</button>
                         </div>
                     </dialog>
@@ -476,17 +473,18 @@
                     </h1>
                     <img src="./images/mapas/Catacombs.webp" alt="" class="capa_mapa">
                     <dialog class="modal">
-                        <div>
-                            <h2>Title</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quam error consequatur velit rerum eum, 
-                                illo laboriosam quas sunt nam deleniti sed porro sapiente saepe et adipisci explicabo aliquid blanditiis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi soluta ex eius optio, nulla blanditiis cum voluptate nisi fugiat deserunt. Aperiam provident dolore accusamus rem natus neque aspernatur quaerat non.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, at. Beatae, ab saepe exercitationem minima porro sed laborum dolorem est facilis earum veniam fugit provident, quis animi. Id, error nemo!
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                
-                            </p>
+                        <div class="bloco_modal">
+                            <div>
+                                <img src="" alt="" class="map">
+                            </div>
+                            <div>
+                                <div class="boss_do_mapa">
+                                    <h1>
+                                        <a href="" class="link_modal">nome do boss</a>
+                                    </h1>
+                                    <img src="" alt="">
+                                </div>
+                            </div>
                             <button type="button" class="fechar_modal">X</button>
                         </div>
                     </dialog>
@@ -497,17 +495,18 @@
                     </h1>
                     <img src="./images/mapas/Tomb_of_the_Giants.webp" alt="" class="capa_mapa">
                     <dialog class="modal">
-                        <div>
-                            <h2>Title</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quam error consequatur velit rerum eum, 
-                                illo laboriosam quas sunt nam deleniti sed porro sapiente saepe et adipisci explicabo aliquid blanditiis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi soluta ex eius optio, nulla blanditiis cum voluptate nisi fugiat deserunt. Aperiam provident dolore accusamus rem natus neque aspernatur quaerat non.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, at. Beatae, ab saepe exercitationem minima porro sed laborum dolorem est facilis earum veniam fugit provident, quis animi. Id, error nemo!
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                
-                            </p>
+                        <div class="bloco_modal">
+                            <div>
+                                <img src="" alt="" class="map">
+                            </div>
+                            <div>
+                                <div class="boss_do_mapa">
+                                    <h1>
+                                        <a href="" class="link_modal">nome do boss</a>
+                                    </h1>
+                                    <img src="" alt="">
+                                </div>
+                            </div>
                             <button type="button" class="fechar_modal">X</button>
                         </div>
                     </dialog>
@@ -518,17 +517,18 @@
                     </h1>
                     <img src="./images/mapas/Kiln_of_the_First_Flame.webp" alt="" class="capa_mapa">
                     <dialog class="modal">
-                        <div>
-                            <h2>Title</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quam error consequatur velit rerum eum, 
-                                illo laboriosam quas sunt nam deleniti sed porro sapiente saepe et adipisci explicabo aliquid blanditiis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi soluta ex eius optio, nulla blanditiis cum voluptate nisi fugiat deserunt. Aperiam provident dolore accusamus rem natus neque aspernatur quaerat non.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, at. Beatae, ab saepe exercitationem minima porro sed laborum dolorem est facilis earum veniam fugit provident, quis animi. Id, error nemo!
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                
-                            </p>
+                        <div class="bloco_modal">
+                            <div>
+                                <img src="" alt="" class="map">
+                            </div>
+                            <div>
+                                <div class="boss_do_mapa">
+                                    <h1>
+                                        <a href="" class="link_modal">nome do boss</a>
+                                    </h1>
+                                    <img src="" alt="">
+                                </div>
+                            </div>
                             <button type="button" class="fechar_modal">X</button>
                         </div>
                     </dialog>
@@ -539,17 +539,18 @@
                     </h1>
                     <img src="./images/mapas/Valley_of_Drakes.webp" alt="" class="capa_mapa">
                     <dialog class="modal">
-                        <div>
-                            <h2>Title</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quam error consequatur velit rerum eum, 
-                                illo laboriosam quas sunt nam deleniti sed porro sapiente saepe et adipisci explicabo aliquid blanditiis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi soluta ex eius optio, nulla blanditiis cum voluptate nisi fugiat deserunt. Aperiam provident dolore accusamus rem natus neque aspernatur quaerat non.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, at. Beatae, ab saepe exercitationem minima porro sed laborum dolorem est facilis earum veniam fugit provident, quis animi. Id, error nemo!
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                
-                            </p>
+                        <div class="bloco_modal">
+                            <div>
+                                <img src="" alt="" class="map">
+                            </div>
+                            <div>
+                                <div class="boss_do_mapa">
+                                    <h1>
+                                        <a href="" class="link_modal">nome do boss</a>
+                                    </h1>
+                                    <img src="" alt="">
+                                </div>
+                            </div>
                             <button type="button" class="fechar_modal">X</button>
                         </div>
                     </dialog>
@@ -567,17 +568,18 @@
                     </h1>
                     <img src="./images/mapas/Sanctuary_garden.webp" alt="" class="capa_mapa">
                     <dialog class="modal">
-                        <div>
-                            <h2>Title</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quam error consequatur velit rerum eum, 
-                                illo laboriosam quas sunt nam deleniti sed porro sapiente saepe et adipisci explicabo aliquid blanditiis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi soluta ex eius optio, nulla blanditiis cum voluptate nisi fugiat deserunt. Aperiam provident dolore accusamus rem natus neque aspernatur quaerat non.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, at. Beatae, ab saepe exercitationem minima porro sed laborum dolorem est facilis earum veniam fugit provident, quis animi. Id, error nemo!
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                
-                            </p>
+                        <div class="bloco_modal">
+                            <div>
+                                <img src="" alt="" class="map">
+                            </div>
+                            <div>
+                                <div class="boss_do_mapa">
+                                    <h1>
+                                        <a href="" class="link_modal">nome do boss</a>
+                                    </h1>
+                                    <img src="" alt="">
+                                </div>
+                            </div>
                             <button type="button" class="fechar_modal">X</button>
                         </div>
                     </dialog>
@@ -588,17 +590,18 @@
                     </h1>
                     <img src="./images/mapas/Oolacile_sanctuary.webp" alt="" class="capa_mapa">
                     <dialog class="modal">
-                        <div>
-                            <h2>Title</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quam error consequatur velit rerum eum, 
-                                illo laboriosam quas sunt nam deleniti sed porro sapiente saepe et adipisci explicabo aliquid blanditiis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi soluta ex eius optio, nulla blanditiis cum voluptate nisi fugiat deserunt. Aperiam provident dolore accusamus rem natus neque aspernatur quaerat non.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, at. Beatae, ab saepe exercitationem minima porro sed laborum dolorem est facilis earum veniam fugit provident, quis animi. Id, error nemo!
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                
-                            </p>
+                        <div class="bloco_modal">
+                            <div>
+                                <img src="" alt="" class="map">
+                            </div>
+                            <div>
+                                <div class="boss_do_mapa">
+                                    <h1>
+                                        <a href="" class="link_modal">nome do boss</a>
+                                    </h1>
+                                    <img src="" alt="">
+                                </div>
+                            </div>
                             <button type="button" class="fechar_modal">X</button>
                         </div>
                     </dialog>
@@ -609,17 +612,18 @@
                     </h1>
                     <img src="./images/mapas/Royal_wood.webp" alt="" class="capa_mapa">
                     <dialog class="modal">
-                        <div>
-                            <h2>Title</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quam error consequatur velit rerum eum, 
-                                illo laboriosam quas sunt nam deleniti sed porro sapiente saepe et adipisci explicabo aliquid blanditiis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi soluta ex eius optio, nulla blanditiis cum voluptate nisi fugiat deserunt. Aperiam provident dolore accusamus rem natus neque aspernatur quaerat non.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, at. Beatae, ab saepe exercitationem minima porro sed laborum dolorem est facilis earum veniam fugit provident, quis animi. Id, error nemo!
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                
-                            </p>
+                        <div class="bloco_modal">
+                            <div>
+                                <img src="" alt="" class="map">
+                            </div>
+                            <div>
+                                <div class="boss_do_mapa">
+                                    <h1>
+                                        <a href="" class="link_modal">nome do boss</a>
+                                    </h1>
+                                    <img src="" alt="">
+                                </div>
+                            </div>
                             <button type="button" class="fechar_modal">X</button>
                         </div>
                     </dialog>
@@ -630,17 +634,18 @@
                     </h1>
                     <img src="./images/mapas/Oolacile_township.webp" alt="" class="capa_mapa">
                     <dialog class="modal">
-                        <div>
-                            <h2>Title</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quam error consequatur velit rerum eum, 
-                                illo laboriosam quas sunt nam deleniti sed porro sapiente saepe et adipisci explicabo aliquid blanditiis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi soluta ex eius optio, nulla blanditiis cum voluptate nisi fugiat deserunt. Aperiam provident dolore accusamus rem natus neque aspernatur quaerat non.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, at. Beatae, ab saepe exercitationem minima porro sed laborum dolorem est facilis earum veniam fugit provident, quis animi. Id, error nemo!
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                
-                            </p>
+                        <div class="bloco_modal">
+                            <div>
+                                <img src="" alt="" class="map">
+                            </div>
+                            <div>
+                                <div class="boss_do_mapa">
+                                    <h1>
+                                        <a href="" class="link_modal">nome do boss</a>
+                                    </h1>
+                                    <img src="" alt="">
+                                </div>
+                            </div>
                             <button type="button" class="fechar_modal">X</button>
                         </div>
                     </dialog>
@@ -651,17 +656,18 @@
                     </h1>
                     <img src="./images/mapas/Chasm_of_abyss.webp" alt="" class="capa_mapa">
                     <dialog class="modal">
-                        <div>
-                            <h2>Title</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quam error consequatur velit rerum eum, 
-                                illo laboriosam quas sunt nam deleniti sed porro sapiente saepe et adipisci explicabo aliquid blanditiis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi soluta ex eius optio, nulla blanditiis cum voluptate nisi fugiat deserunt. Aperiam provident dolore accusamus rem natus neque aspernatur quaerat non.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, at. Beatae, ab saepe exercitationem minima porro sed laborum dolorem est facilis earum veniam fugit provident, quis animi. Id, error nemo!
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                
-                            </p>
+                        <div class="bloco_modal">
+                            <div>
+                                <img src="" alt="" class="map">
+                            </div>
+                            <div>
+                                <div class="boss_do_mapa">
+                                    <h1>
+                                        <a href="" class="link_modal">nome do boss</a>
+                                    </h1>
+                                    <img src="" alt="">
+                                </div>
+                            </div>
                             <button type="button" class="fechar_modal">X</button>
                         </div>
                     </dialog>
@@ -672,17 +678,18 @@
                     </h1>
                     <img src="./images/mapas/Battle_of_Stoicism_lobby.webp" alt="" class="capa_mapa">
                     <dialog class="modal">
-                        <div>
-                            <h2>Title</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quam error consequatur velit rerum eum, 
-                                illo laboriosam quas sunt nam deleniti sed porro sapiente saepe et adipisci explicabo aliquid blanditiis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi soluta ex eius optio, nulla blanditiis cum voluptate nisi fugiat deserunt. Aperiam provident dolore accusamus rem natus neque aspernatur quaerat non.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, at. Beatae, ab saepe exercitationem minima porro sed laborum dolorem est facilis earum veniam fugit provident, quis animi. Id, error nemo!
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt neque beatae odio quidem, quaerat, qui illo maiores veritatis perspiciatis aliquid, quo laboriosam reprehenderit doloremque quibusdam rerum quas nisi harum adipisci.
-                                
-                            </p>
+                        <div class="bloco_modal">
+                            <div>
+                                <img src="" alt="" class="map">
+                            </div>
+                            <div>
+                                <div class="boss_do_mapa">
+                                    <h1>
+                                        <a href="" class="link_modal">nome do boss</a>
+                                    </h1>
+                                    <img src="" alt="">
+                                </div>
+                            </div>
                             <button type="button" class="fechar_modal">X</button>
                         </div>
                     </dialog>
@@ -690,8 +697,53 @@
             </div>
         </section>
     <!-- __________________________________________________________ -->
-        <section id="Bosses">
+        <section id="bosses">
+            <h1>Base game Bosses</h1>
+            <div id="base_bosses">
+                <div class="boss" id="asylum_demon">
+                    <h1>Asylum Demon</h1>
+                    <img src="./images/Bosses/asylum_demon.jpg" alt="" class="boss_img">
+                </div>
+                <div class="boss">
+                    <h1>nome do boss</h1>
+                    <img src="" alt="" class="boss_img">
+                </div>
+                <div class="boss">
+                    <h1>nome do boss</h1>
+                    <img src="" alt="" class="boss_img">
+                </div>
+                <div class="boss">
+                    <h1>nome do boss</h1>
+                    <img src="" alt="" class="boss_img">
+                </div>
+                <div class="boss">
+                    <h1>nome do boss</h1>
+                    <img src="" alt="" class="boss_img">
+                </div>
+                <div class="boss">
+                    <h1>nome do boss</h1>
+                    <img src="" alt="" class="boss_img">
+                </div>
+                <div class="boss">
+                    <h1>nome do boss</h1>
+                    <img src="" alt="" class="boss_img">
+                </div>
+                <div class="boss">
+                    <h1>nome do boss</h1>
+                    <img src="" alt="" class="boss_img">
+                </div>
+                <div class="boss">
+                    <h1>nome do boss</h1>
+                    <img src="" alt="" class="boss_img">
+                </div>
+            </div>
             
+            <!--------------------------------------------------------------------->
+            
+            <h1>DLC Bosses</h1>
+            <div id="dlc_bosses">
+
+            </div>
         </section>    
     </main>
     
