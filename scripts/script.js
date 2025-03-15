@@ -63,10 +63,7 @@ abrir_modal.forEach((button, index) => {
     });
 });
 
-//aaaaaaaaaaaaaaaaaaaaaaaaaaa
-//aaaaaaaaaaaaaaaaaaaaaaaaaaa
-//aaaaaaaaaaaaaaaaaaaaaaaaaaa
-//aaaaaaaaaaaaaaaaaaaaaaaaaaa
+
 
 fechar_modal.forEach((button, index) => {
     button.addEventListener("click", (event) => {
