@@ -1,0 +1,30 @@
+#bosses #base_bosses{
+    padding: 10px;
+    margin: 20px; background-color:rgba(255, 255, 255, 0.1); border-radius: 10px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 280px));
+    gap: 25px;
+    justify-content: center;
+}
+
+#bosses #base_bosses h1{
+    text-align: center;
+    font-size: larger;
+}
+
+#bosses h1{
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1); margin: 20px; padding: 5px;
+}
+
+#bosses div h1{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#bosses #base_bosses .boss .boss_img{
+    border-radius: 10px;
+    width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+}
