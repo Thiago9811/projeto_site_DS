@@ -60,3 +60,16 @@ button.fechar_modal {
     align-self: right;
 }
 
+
+#Blighttown div{
+    max-height: 500px;
+    
+
+}
+#Blighttown div img{
+    min-width: 500px;
+    max-width: 500px;
+    height: 100%;
+    align-self: center;
+    
+}
